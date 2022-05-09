@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REACT LANDING PAGE</title>
+    <link rel="stylesheet" href="ustozproj.css">
+    <link rel="stylesheet" href="card_aylanish.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- navbar -->
+  <div class="navbar">
+          <div class="brend"><b>REACT LANDING PAGE</b></div>
+      <ul>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#servis">SERVICES</a></li>
+          <li><a href="#galareya">GALLERY</a></li>
+          <li><a href="#test">TESTIMONIALS</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="nav_icon" onclick="drop()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg></div>
+  </div>
+  <!-- script -->
+  <ul id="ul_nav1">
+    <li><a href="#features">FEATURES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+          <li><a href="#servis">SERVICES</a></li>
+          <li><a href="#galareya">GALLERY</a></li>
+          <li><a href="#test">TESTIMONIALS</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+<script>
+  var a=1;
+  function drop(){
+  if(a%2==1){
+    document.getElementById('ul_nav1').style.display='block';
+  }
+  else {
+    document.getElementById('ul_nav1').style.display='none';
+  } 
+  a++;}
+</script>
+  <!-- script -->
+  <!--       -->
+  <div class="kirish">
+    <h1><b>WE ARE A <br> LANDING PAGE</b></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus <br> leo nec ornare diam sed commodo nibh ante facilisis bibendum.</p>
+    <button>LEARN MORE</button>
+  </div>
+  <!--        -->
+  <div id="features">
+    <h1><b>Features</b></h1>
+    <div class="onecard">
+      <div class="bir">
+        <div class="card" data-aos="fade-right">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+            <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+          </svg></span>
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam</p>
+        </div>
+        <div class="card" data-aos="fade-right">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
+            <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"/>
+          </svg></span>
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam</p>
+        </div>
+      </div>
+     <div class="ikki"> 
+       <div class="card" data-aos="fade-left">
+      <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+      </svg></span>
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam</p>
+    </div>
+    <div class="card" data-aos="fade-left">
+      <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+      </svg></span>
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam</p>
+    </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about">
+    <img src="./rasm1/about.jpg" alt="" data-aos="fade-down">
+    <div class="aboutus" data-aos="fade-up">
+      <h1><b>ABOUT US</b></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h3>Why Choose Us?</h3>
+      <div class="ptichka">
+        <div>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+      </div>
+      <div>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+          <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+        </svg>Lorem, ipsum dolor.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- servis -->
+  <div id="servis">
+    <h1>OUR SERVICES</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+    <div class="sercard">
+        <div class="cardcha" data-aos="fade-down-right">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wordpress" viewBox="0 0 16 16">
+            <path d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218.02 0 .039.002.058.003l.031.003A6.838 6.838 0 0 0 8 1.137 6.855 6.855 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.864 6.864 0 0 0 3.868 6.176L1.73 5.206A6.837 6.837 0 0 0 1.137 8z"/>
+            <path d="M6.061 14.583 8.121 8.6l2.109 5.78c.014.033.03.064.049.094a6.854 6.854 0 0 1-4.218.109zm7.96-9.876c.03.219.047.453.047.706 0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z"/>
+            <path fill-rule="evenodd" d="M0 8c0-4.411 3.589-8 8-8 4.41 0 8 3.589 8 8s-3.59 8-8 8c-4.411 0-8-3.589-8-8zm.367 0c0 4.209 3.424 7.633 7.633 7.633 4.208 0 7.632-3.424 7.632-7.633C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8z"/>
+          </svg></div>
+          <h2>Lorem ipsum dolor</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+        </div>
+        <div class="cardcha" data-aos="fade-up">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+          </svg></div>
+          <h2>Consectetur adipiscing</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+        </div>
+        <div class="cardcha" data-aos="fade-down-left">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
+            <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+          </svg></div>
+          <h2>Lorem ipsum dolor</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+        </div>
+    </div>
+    <div class="sercard" id="past">
+      <div class="cardcha">
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+          <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
+          <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
+        </svg></div>
+        <h2>Consectetur adipiscing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+      </div>
+      <div class="cardcha">
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89.471-1.178-1.178.471L5.93 9.363l.338.215a.5.5 0 0 1 .154.154l.215.338 7.494-7.494Z"/>
+        </svg></div>
+        <h2>Lorem ipsum dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+      </div>
+      <div class="cardcha">
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pie-chart-fill" viewBox="0 0 16 16">
+          <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z"/>
+        </svg></div>
+        <h2>Consectetur adipiscing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+      </div>
+   </div>
+   <br>
+  </div>
+  <!-- galareya -->
+  <div id="galareya">
+    <h1>GALLERY</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+    <div class="rasm">
+      <a href="#!"><div class="div1"><h4>LOREM IPSUM</h4></div><img src="./rasm1/gal1.jpg" alt=""></a>
+      <a href="#!"><div class="div1"><h4>ADIPISCING ELIT</h4></div><img src="./rasm1/gal2.jpg" alt=""></a>
+      <a href="#!"><div class="div1"><h4>LOREM IPSUM</h4></div><img src="./rasm1/gal3.jpg" alt=""></a>
+        <a href="#!"><div class="div1"><h4>LOREM IPSUM</h4></div><img src="./rasm1/gal4.jpg" alt=""></a>
+      <a href="#!"><div class="div1"><h4>ADIPISCING ELIT</h4></div><img src="./rasm1/gal5.jpg" alt=""></a>
+      <a href="#!"><div class="div1"><h4>DOLOR SIT</h4></div><img src="./rasm1/gal6.jpg" alt=""></a>
+        <a href="#!"><div class="div1"><h4>DOLOR SIT</h4></div><img src="./rasm1/gal7.jpg" alt=""></a>
+        <a href="#!"><div class="div1"><h4>LOREM IPSUM</h4></div><img src="./rasm1/gal8.jpg" alt=""></a>
+        <a href="#!"><div class="div1"><h4>ADIPISCING ELIT</h4></div><img src="./rasm1/gal9.jpg" alt=""></a>  
+     </div>
+  </div>
+  <br>
+  <!-- test -->
+  <div id="test">
+    <h1>WHAT OUR CLIENTS SAY</h1>
+    <div class="test1">
+      <div class="testcard">
+        <img src="./rasm1/01.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b>- John Doe</b></p>
+      </div>
+      <div class="testcard">
+        <img src="./rasm1/02.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b>- Johnathan Doe</b></p>
+      </div>
+      <div class="testcard">
+        <img src="./rasm1/03.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b>- John Doe</b></p>
+      </div>  
+    </div>
+    <div class="test1 salom">
+      <div class="testcard">
+        <img src="./rasm1/04.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b >- Johnathan Doe</b></p>
+      </div>
+      <div class="testcard">
+        <img src="./rasm1/05.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b >- John Doe</b></p>
+      </div>
+      <div class="testcard">
+        <img src="./rasm1/06.jpg" alt="">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.""
+          <br><br>
+          <b >- Johnathan Doe</b></p>
+      </div>
+    </div>
+  </div>
+  <!-- team -->
+  <div id="team">
+    <h1><b>MEET THE TEAM</b></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+    <div class="team">
+      <div class="teamcard">
+        <img src="./rasm1/001.jpg" alt="">
+        <h4>John Doe</h4>
+        <p>Director</p>
+      </div>
+      <div class="teamcard">
+        <img src="./rasm1/002.jpg" alt="">
+        <h4>Mike Doe</h4>
+        <p>Senior Designer</p>
+      </div>
+      <div class="teamcard">
+        <img src="./rasm1/003.jpg" alt="">
+        <h4>Jane Doe</h4>
+        <p>Senior Designer</p>
+      </div>
+      <div class="teamcard">
+        <img src="./rasm1/004.jpg" alt="">
+        <h4>Karen Doe</h4>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="continer">
+      <h1>GET IN TOUCH</h1>
+      <div class="row">
+        <div class="col1">
+          <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+          <input type="text" id="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea name="salom" placeholder="Message"></textarea>
+          <button type="submit">SEND MESSAGE</button>
+        </div>
+        <div class="col">
+          <h4>Contact Info</h4>
+          <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+          </svg>   <span>Address</span></h5>
+          <p>4321 California St, San Francisco, CA 12345</p>
+          <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>   <span>Phone</span></h5>
+          <p>+1 123 456 1234</p>
+          <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+          </svg>  <span> Email</span></h5>
+          <p>info@company.com</p>
+        </div>
+      </div>
+      <ul>
+        <li id="face1" >
+          <a href="https://facebook.com" id="face" class="fa fa-facebook"></a>
+        </li>
+        <li>
+         <a href="https://twitter.com" class="fa fa-twitter"></a>
+        </li> 
+        <li>
+          <a href="https://youtube.com" class="fa fa-youtube"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- kones -->
+<div class="kones">
+  <p>© 2018 Issaaf Kattan React Land Page Template. Design by <a href="#!">TemplateWire</a></p>
+</div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".teamcard"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+     <script>
+      VanillaTilt.init(document.querySelectorAll(".testcard"), {
+  max: 25,
+  speed: 400
+});
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
